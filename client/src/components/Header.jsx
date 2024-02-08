@@ -34,9 +34,10 @@ const Header = () => {
           <FaMoon />
         </Button>
         <Link to="sign-in">
-          <Button gradientDuoTone="purpleToBlue">Sign In</Button>
+          <Button gradientDuoTone="purpleToBlue" outline >Sign In</Button>
         </Link>
         <Button
+          gradientDuoTone="redToYellow"
           type="button"
           onClick={() =>
             window.open("https://github.com/ro14hit/BLOG_APP", "_blank")
