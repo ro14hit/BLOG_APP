@@ -33,7 +33,7 @@ const Signup = () => {
                 placeholder="name@company.com"
                 id="email"
               />
-            </div>
+            </div> 
             <div>
               <Label value="Your password" />
               <TextInput type="text" placeholder="Password" id="password" />
