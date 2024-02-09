@@ -49,7 +49,7 @@ const Signup = () => {
             Blog
           </Link>
           <p className="text-sm mt-5">
-            This is a learning project. You can sign ujp with your email and
+            This is a learning project. You can sign up with your email and
             password or with Google.
           </p>
         </div>
