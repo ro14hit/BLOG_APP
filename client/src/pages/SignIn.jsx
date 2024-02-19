@@ -7,6 +7,7 @@ import {
   signInStart,
   signInFailure,
 } from "../redux/user/userSlice";
+import OAuth from "../components/OAuth";
 
 const SignIn = () => {
   const [formData, setFormData] = useState({});
@@ -47,9 +48,9 @@ const SignIn = () => {
           {/* Div for left side */}
           <Link to="/" className=" font-bold dark:text-white text-4xl ">
             <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-              Rohit's
+              Blog
             </span>
-            Blog
+            Zee
           </Link>
           <p className="text-sm mt-5">
             This is a learning project. You can sign in with your email and
@@ -91,6 +92,7 @@ const SignIn = () => {
                 "Sign In"
               )}
             </Button>
+            <OAuth/>
           </form>
           <div className="flex gap-2 text-sm mt-5">
             <span>Dont have an account?</span>
