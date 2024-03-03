@@ -81,6 +81,16 @@ export default function Header() {
           <Link to="/projects">Projects</Link>
         </Navbar.Link>
       </Navbar.Collapse>
+      <Button
+        className=" hidden sm:inline"
+        color="gray"
+        pill
+        onClick={() =>
+          window.open("https://github.com/ro14hit/BLOG_APP", "_blank")
+        }
+      >
+        Github
+      </Button>
     </Navbar>
   );
 }
