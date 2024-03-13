@@ -6,18 +6,18 @@ export default function CallToAction() {
       <div className="flex-1 justify-center flex flex-col">
         <h2 className="text-2xl">Want to learn more about JavaScript?</h2>
         <p className="text-gray-500 my-2">
-          Checkout these resources with 100 JavaScript Projects
+          Checkout these resources to learn JavaScript
         </p>
         <Button
           gradientDuoTone="purpleToPink"
           className="rounded-tl-xl rounded-bl-none"
         >
           <a
-            href="https://www.100jsprojects.com"
+            href="https://www.w3schools.com/Js/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            100 JavaScript Projects
+            Learn JavaScript
           </a>
         </Button>
       </div>
